@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* disable text selection for user */
+    user-select: none;
+}
+
+img {
+    display: block;
+    padding: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+div#main-content.default p {
+    margin: 13px 0;
+    font-size: 25px;
+    font-family: 'Yatra One', cursive;
+}
+div#main-content.change-1 p {
+    color: red;
+    font-family: chiller;
+    font-size: 55px;
+}
+div#main-content.change-2 p {
+    color: blue;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 30px;
+}
+div#main-content.change-3 p {
+    color: salmon;
+    font-family: tahoma;
+    font-size: 20px;
+    padding: 30px;
+}
+
+h1, h2 {
+    font-family: 'Chicle', cursive;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+    border-top: 5px solid cornsilk;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+body {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(230, 230, 230);
+}
+
+ul {
+    margin: 15px 0 15px 45px;
+    font-family: 'Yatra One', cursive;
+}
+
+li {
+    font-size: 30px;
+}
+
+.hide {display: none;}
+.show {display: block;}
+
+h2#members-heading {
+    cursor: pointer;
+    transition: color 250ms;
+}
+h2#members-heading:hover {
+    color: #333;
+}
+
+button {
+    padding: 10px;
+    margin: 7px;
+    cursor: pointer;
+}
