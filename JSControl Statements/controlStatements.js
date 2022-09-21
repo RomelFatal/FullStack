@@ -140,7 +140,7 @@ do {
 } while (condition)
 
 
-  4) FOR IN     loops
+  4) FOR EACH     loops
 */
 
 
