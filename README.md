@@ -1,6 +1,6 @@
 # FULLSTACK DEVELOPMENT
 
-This repo covers a variety of topics including the MERN stack, and new topics are added to this repo constantly:brain::smile:.
+This repo covers a variety of full stack topics including the MERN stack, new topics are added to this repo constantly:brain::smile:. Happy Coding!
 
 
 ## Topic List
