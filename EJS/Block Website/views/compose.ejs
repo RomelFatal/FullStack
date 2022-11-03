@@ -1,0 +1,24 @@
+<!-- EJS layout to render header from homepage
+    so content is uniform throughout the webpage -->
+<%- include("partials/header"); -%>
+
+
+    <%# Contents for the webpage %>
+    <h1>Compose</h1>
+
+    <form class="" action="/compose" method="post">
+        <div class="form-group">
+            <label>Title</label>
+            <input class="form-control" type="text" name="postTitle">
+
+            <label>Post</label>
+            <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+        </div>
+
+        <button class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+
+
+<!-- EJS layout to render footer from homepage
+    so content is uniform throughout the webpage -->
+<%- include("partials/footer"); -%>
