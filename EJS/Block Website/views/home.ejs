@@ -1,0 +1,30 @@
+<!-- EJS layout to render header from homepage
+    so content is uniform throughout the webpage -->
+<%- include("partials/header"); -%>
+
+
+    <%# Contents for the webpage %>
+    <h1>Home</h1>
+    <p> <%= startingContent %> </p>
+
+
+    <%# Get each user posts and display them on the homepage,
+        use a foreach loop to process the array %>
+    <% posts.forEach(function(post) { %>
+        <h1> <%= post.title %> </h1>
+
+
+        <%# Display and limit the post content that is displayed on the
+            homepage. In this case, the post is limited to 100 characters.
+            And allow user to read more of the content to its own page. %>
+        <p>
+            <%= post.content.substring(0, 100) + " ..." %>
+            <a href="/posts/<%=post.title%>">Read More</a>
+        </p>
+    <% }); %>
+
+
+
+<!-- EJS layout to render footer from homepage
+    so content is uniform throughout the webpage -->
+<%- include("partials/footer"); -%>
