@@ -6,7 +6,7 @@ This repo covers a variety of full stack topics including the MERN stack, new to
 ## Topic List
 #### Front End
 - HTML
-- Templating using EJS
+- Templating and layout using EJS
 - CSS
 - Bootstrap
 - React
